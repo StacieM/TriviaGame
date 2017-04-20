@@ -3,6 +3,21 @@
   src: url('../SomeTimeLater.otf') format:('opentype');
 }
 
+.shadow {
+  text-shadow: 1px 1px yellow;
+}
+
+body {
+  font-family: SomeTimeLater;
+  color: black;
+  background-image: url('pineappleHouse.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top; 
+  background-size: cover;
+  height: 100%;
+}
+
 .jumbotron {
   box-sizing: border-box;
   height: 150px;
@@ -37,6 +52,10 @@
   margin-top: 40px;
 }
 
+img {
+  width: 400px;
+}
+
 .first-answer {
   margin-top: 40px;
 }
@@ -50,21 +69,3 @@
   margin-top: 40px;
 }
 
-body {
-  font-family: SomeTimeLater;
-  color: black;
-  background-image: url('pineappleHouse.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top; 
-  background-size: cover;
-  height: 100%;
-}
-
-.shadow {
-  text-shadow: 1px 1px yellow;
-}
-
-img {
-  width: 400px;
-}
