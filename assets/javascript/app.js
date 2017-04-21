@@ -11,7 +11,7 @@ initialScreen();
 //function, generateHTML(), triggered by start button, generate the HTML
 
 $("body").on("click", ".start-button", function(event){
-	event.preventDefault();  
+	// event.preventDefault();  
 	clickSound.play();
 	generateHTML();
     timerWrapper();
