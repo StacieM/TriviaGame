@@ -7,6 +7,14 @@
   text-shadow: 1px 1px yellow;
 }
 
+p.shadow  {
+  font-size: 40px;
+}
+
+p.answer, p.first-answer {
+  font-size: 25px;ß
+}
+
 body {
   font-family: SomeTimeLater;
   color: black;
